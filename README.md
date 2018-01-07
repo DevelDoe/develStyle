@@ -13,11 +13,13 @@
 
 ## Installation
 
-    npm install devel-styel --save
+    npm install devel-styel --save-dev
 
 ## Usage
 
+```
 import 'node_modules/devel-style/devel-style.css'
+```
 
 ## Contributing
 
