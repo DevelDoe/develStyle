@@ -47,6 +47,7 @@ add #background id to body & #app id to your wrapper div:
 <body id="background">
     <div id="app">
 ...
+```
 
 ## Contributing
 
