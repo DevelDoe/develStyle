@@ -1,0 +1,24 @@
+{
+  "name": "devel-style",
+  "version": "1.0.0",
+  "description": "Stylesheet to help you develop a new site's html markup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelDoe/develStyle.git"
+  },
+  "keywords": [
+    "stylesheet",
+    "css",
+    "development"
+  ],
+  "author": "Andree \"DevelDoe\" Ray <me@andreeray.se> (http://andreeray.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevelDoe/develStyle/issues"
+  },
+  "homepage": "https://github.com/DevelDoe/develStyle#readme"
+}
