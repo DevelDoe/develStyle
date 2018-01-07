@@ -18,7 +18,7 @@
 ## Usage
 
 ```
-import 'node_modules/devel-style/devel-style.css'
+import '{path to node_modules}/devel-style/devel-style.css'
 ```
 
 ## Contributing
