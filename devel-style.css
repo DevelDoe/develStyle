@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-07T20:36:05+01:00
+ * @Last modified time: 2018-01-07T21:34:58+01:00
  */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -55,7 +55,7 @@ table {
   * @Email:  andreeray@live.com
   * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-07T20:36:05+01:00
+ * @Last modified time: 2018-01-07T21:34:58+01:00
   */
 
 /* html & body */
@@ -75,7 +75,6 @@ html {
 body {
     margin: 0 auto;
     padding: 0px;
-    max-width: 960px;
     font: 10px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     /* font-size base 10 */
     color: white;
@@ -84,6 +83,10 @@ body {
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
     font-weight: 300;
+}
+
+a {
+    color: white;
 }
 
 /* clearfix */

@@ -15,11 +15,38 @@
 
     npm install devel-style --save-dev
 
+## Requirements
+
+
+`npm install style-loader css-loader --save-dev`
+
+webpack.config.js
+
+```js
+module: {
+    rules: [
+        {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader'],
+        }
+    ]
+}
+```
+
 ## Usage
 
-```
+import:
+
+```js
 import '{path to node_modules}/devel-style/devel-style.css'
 ```
+add #background id to body & #app id to your wrapper div:
+
+```html
+...
+<body id="background">
+    <div id="app">
+...
 
 ## Contributing
 
