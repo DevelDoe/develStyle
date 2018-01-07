@@ -13,7 +13,7 @@
 
 ## Installation
 
-    npm install devel-styel --save-dev
+    npm install devel-style --save-dev
 
 ## Usage
 
