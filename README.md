@@ -11,6 +11,8 @@
 
     Stylesheet to help you develop a new site's html markup.
 
+    ![devel-style](https://imgur.com/t6UXaq9)
+
 ## Installation
 
     npm install devel-style --save-dev
