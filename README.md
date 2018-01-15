@@ -53,14 +53,6 @@ add #background id to body & #app id to your wrapper div:
 ...
 ```
 
-## fonts
-
-Add Robot fonts.
-
-```js
-import '{path to node_modules}/devel-style/fonts.css'
-```
-
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
