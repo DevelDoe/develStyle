@@ -22,6 +22,8 @@
 
 `npm install style-loader css-loader --save-dev`
 
+*Don't forget to add #background and #app elements id's*
+
 webpack.config.js
 
 ```js
@@ -51,6 +53,14 @@ add #background id to body & #app id to your wrapper div:
 ...
 ```
 
+## fonts
+
+Add Robot fonts.
+
+```js
+import '{path to node_modules}/devel-style/fonts.css'
+```
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
@@ -58,3 +68,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 
 * 1.0 Initial release
+* 1.1 Fixed styling for tables and inputs

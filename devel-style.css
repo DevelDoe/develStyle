@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-07T21:34:58+01:00
+ * @Last modified time: 2018-01-15T21:18:07+01:00
  */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -55,7 +55,7 @@ table {
   * @Email:  andreeray@live.com
   * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-07T21:34:58+01:00
+ * @Last modified time: 2018-01-15T21:18:07+01:00
   */
 
 /* html & body */
@@ -111,6 +111,43 @@ a {
     background-image: linear-gradient(0deg, transparent, transparent 7px, rgba(255, 255, 255, 0.25) 7px), linear-gradient(90deg, transparent, transparent 7px, rgba(255, 255, 255, 0.25) 7px);
     background-size: 8px 8px;
     background-position: left top;
+}
+/* tables */
+table { width: 100%; }
+td { text-align: center; }
+
+/* inputs */
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    font-size: 100%;
+    color: white;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(255, 255, 255, 0.5);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, 0.5);
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.5);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color: rgba(255, 255, 255, 0.5);
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 
 /**
