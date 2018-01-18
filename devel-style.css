@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-15T21:58:59+01:00
+ * @Last modified time: 2018-01-18T15:28:04+01:00
  */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -55,7 +55,7 @@ table {
   * @Email:  andreeray@live.com
   * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-15T21:58:59+01:00
+ * @Last modified time: 2018-01-18T15:28:04+01:00
   */
 
 /* html & body */
@@ -149,6 +149,13 @@ input {
 }
 textarea:focus, input:focus{
     outline: none;
+}
+
+/* textar */
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 /* buttons */

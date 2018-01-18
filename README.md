@@ -61,3 +61,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 * 1.0 Initial release
 * 1.1 Fixed styling for tables and inputs
+* 1.2 Added some styling to textarea
