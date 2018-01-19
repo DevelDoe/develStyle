@@ -44,12 +44,12 @@ import:
 ```js
 import '{path to node_modules}/devel-style/devel-style.css'
 ```
-add #background id to body & #app id to your wrapper div:
+add #background id to body & #shell id wrappers:
 
 ```html
 ...
 <body id="background">
-    <div id="app">
+    <div id="shell">
 ...
 ```
 
