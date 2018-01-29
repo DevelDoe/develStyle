@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-19T07:04:24+01:00
+ * @Last modified time: 2018-01-29T19:09:23+01:00
  */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -55,7 +55,7 @@ table {
   * @Email:  andreeray@live.com
   * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-19T07:04:24+01:00
+ * @Last modified time: 2018-01-29T19:09:23+01:00
   */
 
 /* html & body */
@@ -177,4 +177,5 @@ button {
 article, aside, blockquote, body, br, button, canvas, caption, col, colgroup, dd, div, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, li, map, object, ol, output, p, pre, progress, section, table, tbody, textarea, tfoot, th, thead, tr, ul, video {
     background-color: rgba(255, 255, 255, 0.125);
     padding: 0.7%;
+    outline: 1px solid rgba(255,255,255,0.5);
 }
