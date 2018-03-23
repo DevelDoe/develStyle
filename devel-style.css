@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-29T19:09:23+01:00
+ * @Last modified time: 2018-02-01T13:25:42+01:00
  */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -55,14 +55,10 @@ table {
   * @Email:  andreeray@live.com
   * @Filename: devel-style.css
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-29T19:09:23+01:00
+ * @Last modified time: 2018-02-01T13:25:42+01:00
   */
 
 /* html & body */
-
-html, body {
-    height: 100%;
-}
 
 html {
     box-sizing: border-box;
